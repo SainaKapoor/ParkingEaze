@@ -17,3 +17,5 @@
 		<h3><u>Sept 3rd 2019 (Blog #1)</u></h3>
 	<p>Repository is created</p>
 	<h3><center>This project is maintained by <a href= "https://github.com/SainaKapoor">SainaKapoor</a> and can be seen on the <a href="https://github.com/SainaKapoor/ParkingEaze">github</a></center></h3>
+	</body>
+	</html>
