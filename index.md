@@ -16,3 +16,4 @@
 	<p>The main idea of the project which is the proposal can be viewed through this link: <a href="https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/Proposal.xlsx">Click here</a></p>
 		<h3><u>Sept 3rd 2019 (Blog #1)</u></h3>
 	<p>Repository is created</p>
+	<h3><center>This project is maintained by SainaKapoor and can be seen on the github</center></h3>
