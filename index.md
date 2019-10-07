@@ -13,4 +13,6 @@
 	<h3>Sept 17th 2019 (Blog #3 )</h3>
 	<p>Schedule of the whole project can be seen through this link: <a href="https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/Schedule.mpp">Click here</a></p>
 	<h3>Sept 10th 2019 (Blog #2 )</h3>
-	<p>The main idea of the project which is the proposal can be viewed through this link: <a href="https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/Schedule.mpp">Click here</a></p>
+	<p>The main idea of the project which is the proposal can be viewed through this link: <a href="https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/Proposal.xlsx">Click here</a></p>
+	<h3>Sept 3rd 2019 (Blog #1)</h3>
+	<p>Repository is created</p>
