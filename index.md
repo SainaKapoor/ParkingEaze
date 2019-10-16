@@ -7,11 +7,11 @@
       <h2><center>Parking IOT system scale model 2019-2020</center></h2>
     </body>
 	<h3><u>Oct 15th 2019 (Blog #6)</u></h3>
-	<p>Designed the project using Fritzing.
-	<p>Breadboard connection can be shown below.
+	<p><b>Designed the project using Fritzing.</b>
+	<h3>Breadboard connection can be shown below.
 	<br>
 	<img src ="Images/ceng317_bb.png">  
-	<p>Designed the schematic.
+	<h3>Designed the schematic.
 	<br>
 	<img src ="Images/ceng317_schem.png">
 	<br>
