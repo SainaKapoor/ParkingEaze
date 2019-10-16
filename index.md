@@ -8,13 +8,14 @@
     </body>
 	<h3><u>Oct 15th 2019 (Blog #6)</u></h3>
 	<p><b>Designed the project using Fritzing.</b>
-	<h3>Breadboard connection can be shown below.
+	<p>Breadboard connection can be shown below.
 	<br>
-	<img src ="https://github.com/SainaKapoor/ParkingEaze/blob/master/Images/ceng317_bb.png">  
-	<h3>Designed the schematic.
+	<img src ="Images/ceng317_bb.png">  
+	<p>Designed the schematic.
 	<br>
 	<img src ="https://github.com/SainaKapoor/ParkingEaze/blob/master/Images/ceng317_schem.png">   
-	<h3>Designed the PCB.  
+	<p>Designed the PCB.  
+	<br>
 	<img src ="https://github.com/SainaKapoor/ParkingEaze/blob/master/Images/ceng317R_pcb.png">
 	<p>The Fritzing file with Raspberry PI can be seen <a href="https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/ceng317.fzz">here.</a></p>
 	<h3><u>Oct 1st 2019 (Blog #5)</u></h3>
