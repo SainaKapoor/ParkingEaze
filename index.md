@@ -10,10 +10,10 @@
 	<p><b>Designed the project using Fritzing.</b>
 	<h3>Breadboard connection can be shown below.
 	<br>
-	<img src ="Images/ceng317_bb.png">  
+	<img src ="https://github.com/SainaKapoor/ParkingEaze/blob/master/Images/ceng317_bb.png">  
 	<h3>Designed the schematic.
 	<br>
-	<img src ="Images/ceng317_schem.png">
+	<img src ="https://github.com/SainaKapoor/ParkingEaze/blob/master/Images/ceng317_schem.png">
 	<br>
 	<h3><u>Oct 1st 2019 (Blog #5)</u></h3>
 	<p>The proof of Purchase is handed out and can be seen on this link: <a href="https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/purchase%20proof.docx">Click here</a></p>
