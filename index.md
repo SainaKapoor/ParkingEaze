@@ -6,6 +6,13 @@
       <h1><center>Parking Eaze Project</center></h1>
       <h2><center>Parking IOT system scale model 2019-2020</center></h2>
     </body>
+	<h3><u>Oct 29th 2019 (Blog #7)</u></h3>
+	<p><b>I made the connection using HC-SR04 sensor, LCD disaply, Breadboard and Raspberry Pi.</b>
+	<br>
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/connection.jpg">
+	<br>
+	<p>I got this output.
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/output.jpg">
 	<h3><u>Oct 15th 2019 (Blog #6)</u></h3>
 	<p><b>Designed the project using Fritzing.</b>
 	<h4>Breadboard connection can be shown below.
