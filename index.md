@@ -11,7 +11,7 @@
 	<br>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/connection.jpg">
 	<br>
-	<p>I got this output.
+	<p><b>I got this output.</b>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/output.jpg">
 	<h3><u>Oct 15th 2019 (Blog #6)</u></h3>
 	<p><b>Designed the project using Fritzing.</b>
