@@ -6,13 +6,21 @@
       <h1><center>Parking Eaze Project</center></h1>
       <h2><center>Parking IOT system scale model 2019-2020</center></h2>
     </body>
-	<h3><u>Oct 29th 2019 (Blog #7)</u></h3>
+	<h3><u>Oct 29th 2019 (Blog #8)</u></h3>
 	<p><b>I made the connection using HC-SR04 sensor, LCD disaply, Breadboard and Raspberry Pi.</b>
 	<br>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/connection.jpg">
 	<br>
-	<p><b>I got this output.</b>
-	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/output.jpg">
+	<p><b>I got this output on the terminal window of the Raspberry Pi.</b>
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/result.jpg">
+	<p><b>Whereas, when an object moves near the HC-SR04 sensor it displays the distance on the LCD Screen in cm. </b>
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/display.jpg">
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/display2.jpg">
+	<p><b>I got the necessary libraries for the project from the website <a href= "https://www.recantha.co.uk/blog/?p=4849"> here.</a>
+	<h3><u>Oct 22nd 2019 (Blog #7)</u></h3>
+	<p><b>PCB was made by the Humber College's Prototype Lab with the help of gerber files of my project</b>
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb3.jpg"> 
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb4.jpg"> 
 	<h3><u>Oct 15th 2019 (Blog #6)</u></h3>
 	<p><b>Designed the project using Fritzing.</b>
 	<h4>Breadboard connection can be shown below.
