@@ -7,7 +7,7 @@
       <h2><center>Parking IOT system scale model 2019-2020</center></h2>
     </body>
 	<h3><u>Update</u></h3>
-	<p><b>My project is up to date and going exactly like mentioned in the schedule and proposal. I didn't buy anything any extra outside the budget.</b>
+	<p><b>My project is up to date and going exactly like mentioned in the schedule and proposal. I didn't buy anything any extra outside the budget mentioned.</b>
 	<h3><u>Nov 5th 2019 (Blog #9)</u></h3>
 	<p><b>Soldered the PCB with necessary pin headers, resistors.</b>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb1.jpg">
