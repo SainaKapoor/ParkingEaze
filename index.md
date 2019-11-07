@@ -6,6 +6,12 @@
       <h1><center>Parking Eaze Project</center></h1>
       <h2><center>Parking IOT system scale model 2019-2020</center></h2>
     </body>
+	<h3><u>Nov 5th 2019 (Blog #9)</u></h3>
+	<p><b>Soldered the PCB with necessary pin headers, resistors.</b>
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb1.jpg">
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb2.jpg">
+	<p><b>To test the connection, I connected the VCC and ground with the multimeter. It shows Overload which means connection is open. </b>
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/test.jpg">
 	<h3><u>Oct 29th 2019 (Blog #8)</u></h3>
 	<p><b>I made the connection using HC-SR04 sensor, LCD disaply, Breadboard and Raspberry Pi.</b>
 	<br>
