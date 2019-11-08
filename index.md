@@ -11,6 +11,7 @@
 	<h3><u>Nov 5th 2019 (Blog #9)</u></h3>
 	<p><b>Soldered the PCB with necessary pin headers, resistors.</b>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb1.jpg">
+	<br>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb2.jpg">
 	<p><b>To test the connection, I connected the VCC and ground with the multimeter. It shows Overload which means connection is open. </b>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/test.jpg">
@@ -23,11 +24,13 @@
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/result.jpg">
 	<p><b>Whereas, when an object moves near the HC-SR04 sensor it displays the distance on the LCD Screen in cm. </b>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/display.jpg">
+	<br>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/display2.jpg">
 	<p><b>I got the necessary libraries for the project from the website <a href= "https://www.recantha.co.uk/blog/?p=4849"> here.</a>
 	<h3><u>Oct 22nd 2019 (Blog #7)</u></h3>
 	<p><b>PCB was made by the Humber College's Prototype Lab with the help of gerber files of my project</b>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb3.jpg"> 
+	<br>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb4.jpg"> 
 	<h3><u>Oct 15th 2019 (Blog #6)</u></h3>
 	<p><b>Designed the project using Fritzing.</b>
