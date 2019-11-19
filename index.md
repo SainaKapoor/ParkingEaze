@@ -8,11 +8,21 @@
     </body>
 	<h3><u>Update</u></h3>
 	<p><b>My project is up to date and going exactly like mentioned in the schedule and proposal. I didn't buy anything extra outside the budget mentioned.</b>
+	<h3><u>Nov 12th 2019 (Blog #10)</u></h3>
+	<p><b>PCB Power up.</b>
+	<p>This image shows how my pcb actually works.
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/instr.jpg">
+	<p>I captured these two output in which one image shows the distance of the object to the sensor which is 3.7cm and the other image shows the distance of 13.33cm. I also placed the ruler between the senor and the object to check if the sensor is measuring the distance displayed on the LCD is correct and as a result it was measuring accurately.
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/measure2.jpg">
+	<br>
+	<br>
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/measure1.jpg">
 	<h3><u>Nov 5th 2019 (Blog #9)</u></h3>
 	<p><b>Soldered the PCB with necessary pin headers, resistors.</b>
-	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb1.jpg">
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/solder1.jpg">
 	<br>
-	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb2.jpg">
+	<br>
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/solder2.jpg">
 	<p><b>To test the connection, I connected the VCC and ground with the multimeter. It shows Overload which means connection is open. </b>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/test.jpg">
 	<h3><u>Oct 29th 2019 (Blog #8)</u></h3>
