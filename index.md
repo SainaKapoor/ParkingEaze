@@ -7,12 +7,12 @@
       <h2><center>Parking IOT system scale model 2019-2020</center></h2>
     </body>
 	<h3><u>Update and project report.</u></h3>
-	<p><b>My project is up to date and going exactly like mentioned in the schedule and proposal. I didn't buy anything extra outside the budget mentioned.However, i got many problems with my pcb as the wire connection was not accurate in the pcb design. As a result my sensor was responding very late to the the object near to it. When I discussed with my professor regarding this issue, he suggested me some changes in my pcb and I soldered my PCB again and now it works fine.</b>
+	<p><b>My project is up to date and going exactly like mentioned in the schedule and proposal. I didn't buy anything 		extra outside the budget mentioned.However, i got many problems with my pcb as the wire connection was not accurate in 		the pcb design. As a result my sensor was responding very late to the the object near to it. When I discussed with my 		professor regarding this issue, he suggested me some changes in my pcb and I soldered my PCB again and now it works 		fine.</b>
 	<h3><u>Nov 12th 2019 (Blog #10)</u></h3>
 	<p><b>PCB Power up.</b>
 	<p>This image shows how my pcb actually works.
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/instr.jpg">
-	<p>I captured these two output in which one image shows the distance of the object to the sensor which is 3.7cm and the other image shows the distance of 13.33cm. I also placed the ruler between the senor and the object to check if the sensor is measuring the distance displayed on the LCD is correct and as a result it was measuring accurately.
+	<p>I captured these two output in which one image shows the distance of the object to the sensor which is 3.7cm and the 	other image shows the distance of 13.33cm. I also placed the ruler between the senor and the object to check if the 		sensor is measuring the distance displayed on the LCD is correct and as a result it was measuring accurately.
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/measure2.jpg">
 	<br>
 	<br>
@@ -23,7 +23,7 @@
 	<br>
 	<br>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/solder2.jpg">
-	<p><b>To test the connection, I connected the VCC and ground with the multimeter. It shows Overload which means connection is open. </b>
+	<p><b>To test the connection, I connected the VCC and ground with the multimeter. It shows Overload which means 		connection is open. </b>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/test.jpg">
 	<h3><u>Oct 29th 2019 (Blog #8)</u></h3>
 	<p><b>I made the connection using HC-SR04 sensor, LCD disaply, Breadboard and Raspberry Pi.</b>
@@ -36,7 +36,7 @@
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/display.jpg">
 	<br>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/display2.jpg">
-	<p><b>I got the necessary libraries for the project from the website <a href= "https://www.recantha.co.uk/blog/?p=4849"> here.</a>
+	<p><b>I got the necessary libraries for the project from the website <a href= "https://www.recantha.co.uk/blog/?p=4849"> 	here.</a>
 	<h3><u>Oct 22nd 2019 (Blog #7)</u></h3>
 	<p><b>PCB was made by the Humber College's Prototype Lab with the help of gerber files of my project</b>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb3.jpg"> 
