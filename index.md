@@ -52,7 +52,7 @@
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/ceng317_schematic.png">   
 	<h4>Designed the PCB.  
 	<br>
-	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/ceng317R_pcb1.png">
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/PCB.jpg">
 	<p>The Fritzing file with Raspberry PI can be seen <a href="https://github.com/SainaKapoor/ParkingEaze/blob/master/Electronics/ceng317.fzz">here.</a></p>
 	<p>The Fritzing file without Raspberry PI can be seen <a href="https://github.com/SainaKapoor/ParkingEaze/blob/master/Electronics/ceng317R.fzz">here.</a></p>
 	<h3><u>Oct 1st 2019 (Blog #5)</u></h3>
