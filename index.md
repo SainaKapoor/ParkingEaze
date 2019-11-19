@@ -6,8 +6,8 @@
       <h1><center>Parking Eaze Project</center></h1>
       <h2><center>Parking IOT system scale model 2019-2020</center></h2>
     </body>
-	<h3><u>Update</u></h3>
-	<p><b>My project is up to date and going exactly like mentioned in the schedule and proposal. I didn't buy anything extra outside the budget mentioned.</b>
+	<h3><u>Update and project report.</u></h3>
+	<p><b>My project is up to date and going exactly like mentioned in the schedule and proposal. I didn't buy anything extra outside the budget mentioned.However, i got many problems with my pcb as the wire connection was not accurate in the pcb design. As a result my sensor was responding very late to the the object near to it. When I discussed with my professor regarding this issue, he suggested me some changes in my pcb and I soldered my PCB again and now it works fine.</b>
 	<h3><u>Nov 12th 2019 (Blog #10)</u></h3>
 	<p><b>PCB Power up.</b>
 	<p>This image shows how my pcb actually works.
