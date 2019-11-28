@@ -20,6 +20,7 @@
 	<br>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/case4.jpg">
 	<br>
+	<p><b>The corel draw file for my case can be seen <a href="https://github.com/SainaKapoor/ParkingEaze/blob/master/Mechanical/Enclosure.cdr">here.</a></b>
 	<h3><u>Nov 12th 2019 (Blog #10)</u></h3>
 	<p><b>PCB Power up.</b>
 	<p>This image shows how my pcb actually works.
