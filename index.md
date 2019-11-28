@@ -51,9 +51,9 @@
 	<p><b>I got the necessary libraries for the project from the website <a href= "https://www.recantha.co.uk/blog/?p=4849"> 	here.</a>
 	<h3><u>Oct 22nd 2019 (Blog #7)</u></h3>
 	<p><b>PCB was made by the Humber College's Prototype Lab with the help of gerber files of my project</b>
-	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb3.jpg"> 
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/delta1.jpg"> 
 	<br>
-	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/pcb4.jpg"> 
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/delta2.jpg"> 
 	<h3><u>Oct 15th 2019 (Blog #6)</u></h3>
 	<p><b>Designed the project using Fritzing.</b>
 	<h4>Breadboard connection can be shown below.
