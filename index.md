@@ -62,7 +62,7 @@
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/ceng317_bb.png">  
 	<h4>Designed the schematic.
 	<br>
-	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/PCB.jpg">   
+	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/ceng317_schematic.png">   
 	<h4>Designed the PCB.  
 	<br>
 	<img src ="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/PCB.jpg">
