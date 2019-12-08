@@ -131,13 +131,13 @@ Here is my PCB Design and I got the PCB by exporting it to the gerber files.
 ![fritz_pcb](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/redo_pcb.jpg)
 
 ### Soldering
--Follow these [instruction](https://www.instructables.com/id/How-to-solder/) on how to solder the pcb. 
+- Follow these [instruction](https://www.instructables.com/id/How-to-solder/) on how to solder the pcb. 
 I soldered my pcb with necessary headers and resistors.
--Make sure the connections on PCB are not short. vias and other point should have enough solder on it for accurate connection.
+- Make sure the connections on PCB are not short. vias and other point should have enough solder on it for accurate connection.
 ![99a0e5b6-66c7-4494-9c4c-d72fc71df572](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/new_pcb2.jpg)
 ![99a0e5b6-66c7-4494-9c4c-d72fc71df572](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/new_pcb1.jpg)
 
--To avoid short, make sure your pcb is soldered properly, I connected the VCC and ground with the multimeter. It shows Overload which means connection is open. Try connecting it with sensor and effector on it, it will show some value which depicts that connections are accurate.
+- To avoid short, make sure your pcb is soldered properly, I connected the VCC and ground with the multimeter. It shows Overload which means connection is open. Try connecting it with sensor and effector on it, it will show some value which depicts that connections are accurate.
 ![99a0e5b6-66c7-4494-9c4c-d72fc71df572](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/test.jpg)
 
 ### Power Up
@@ -145,8 +145,8 @@ After all the components are connected, your setup should look like this and sho
 ![whatsapp image 2018-11-13 at 10 50 46 pm](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/measure_distance1.jpg) 
 
 ## Unit Testing
-To run the LCD we need some lcd driver libraries which is available at [Libraries] (https://www.recantha.co.uk/blog/?p=4849)
--Note that the i2c address in the library should match with your lcd i2c address otherwise it will give some errors.
+To run the LCD we need some lcd driver libraries which is available at [Libraries](https://www.recantha.co.uk/blog/?p=4849)
+- Note that the i2c address in the library should match with your lcd i2c address otherwise it will give some errors.
 
 
 ### Python Script
