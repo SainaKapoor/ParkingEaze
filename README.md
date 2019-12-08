@@ -20,9 +20,13 @@
 
 ## Introduction to the sensor and effector
  •PCF8574 LCD module (effector)
+ 
  -The Serial LCD  backpack built on PCF8574 IC uses the I2C bus to convert the parallel interface to a serial one.
+ 
  -The LCD needs only 2 wires SDA & SCL , apart from the power connections and ground.
+ 
  -There is a blue model which adjusts the contrast of the LCD.
+ 
  -The I2C device has a HEX address by which a microcontroller can communicate with it.
  
  •HC-SR04 distance sensor  (sensor)
