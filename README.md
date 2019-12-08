@@ -52,10 +52,12 @@ The main goal of my project is to measure the distance of the car and display it
 ![capture](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/budget.png)
 
 ## Time Commitment
-This project can be done in 1-2 weeks. It will take about 4 days to recieve the parts. The breadboarding and testing the connection might take 1-2 hour. Soldering headers, resitors just take 15 minutes. After this, importing the necessary libraries for the lcd and running the python code can take 1 more extra hour which includes troubleshooting step.
+-This project can be done in 1-2 weeks. It will take about 4-5 days to recieve the parts. The breadboarding and testing the connection might take 1-2 hour. Soldering headers, resitors just take 15 minutes. After this, importing the necessary libraries for the lcd and running the python code can take 1 more extra hour which includes troubleshooting step.
+- You can also refer to my schedule provided [here] (https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/Schedule.mpp)
 
 ## Setting up Raspberry Pi
 First step after getting your raspberry pi is to set it up.
+
  Following things you need:
 1. Hdmi to VGA cable.
 2. Power supply.
@@ -88,18 +90,86 @@ Wiring:
 - LCD SCL to Pin 5 GPIO3 / SCL
 
 
-If the connections are correct then you should be able to get address from your sensor.
+If the connections are correct then you should be able to see the readings on the LCD.
 ![whatsapp image 2018-10-23 at 1 44 14 pm 1](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/display.jpg)
 
 ### Breadboard and Raspberry Pi schematic
 This wiring diagram could be helpful to make the connections on breadboard
 ![fritz_bb](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/new_breadboard.jpg)
 
-### i2c Detection (0x27)
-Type the following command in terminal
+### I2c Detection (0x27)
+Type the following command on terminal
 
 ````
 i2cdetect -y 1
 ````
 
 ![whatsapp image 2018-10-23 at 1 44 14 pm](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/output.jpg)
+
+## Mechanical Assembly
+I made the connections on the breadboard to check if all the elements are working using jumper wires and the python script described in the further steps.
+After testing, PCB design is made so that the sensor and effector can be directly connected to the pcb without the use of any wires.
+
+| HC-SR04 | Raspberry Pi |
+| --- | --- |
+| VCC | 5V |
+| GND | GND |
+| TRIG | PIN16 |
+| ECHO |   |  1K  |
+
+| PCF8574 LCD | Raspberry Pi |
+| --- | --- |
+| VCC | 5V |
+| GND | GND |
+| SDA | SDA |
+| SCL | SCL |
+
+
+
+## PCB
+Here is my PCB Design and I got the PCB by exporting it to the gerber files.
+![fritz_pcb](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/redo_pcb.jpg)
+
+### Soldering
+-Follow these [instruction] (https://www.instructables.com/id/How-to-solder/) on how to solder the pcb. 
+I soldered my pcb with necessary headers and resistors.
+-Make sure the connections on PCB are not short. vias and other point should have enough solder on it for accurate connection.
+![99a0e5b6-66c7-4494-9c4c-d72fc71df572](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/new_pcb2.jpg)
+![www] (https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/new_pcb1.jpg)
+
+-To avoid short, make sure your pcb is soldered properly, I connected the VCC and ground with the multimeter. It shows Overload which means connection is open. Try connecting it with sensor and effector on it, it will show some value which depicts that connections are accurate.
+![com] (https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/test.jpg)
+
+### Power Up
+After all the components are connected, your setup should look like this and should show the readings of the distance on the LCD when any object moves infront of the sensor.
+![whatsapp image 2018-11-13 at 10 50 46 pm](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/measure_distance1.jpg) 
+
+## Unit Testing
+To run the LCD we need some lcd driver libraries which is available at [Libraries] (https://www.recantha.co.uk/blog/?p=4849)
+-Note that the i2c address in the library should match with your lcd i2c address otherwise it will give some errors.
+
+
+### Python Script
+I used the this code to run both my sensor and lcd.
+![python](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/python_code.png)
+
+### Final Testing
+I got this output on the terminal window of the Raspberry Pi after running the python script and the distance will be displayed on the lcd screen.
+![reading](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/result.jpg)
+
+### Enclosure
+I made an acrylic case to enclode my raspberry pi, pcb, sensor and lcd 
+You can use Corel Draw to make a case. Click here to get the files for this case. [Design] (https://github.com/SainaKapoor/ParkingEaze/blob/master/Mechanical/Enclosure.cdr)
+
+If you are successful in making your case, it should look like this.
+![design](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/case1.jpg)
+
+![usbports](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/case2.jpg)
+
+## Production Testing
+It is important that the sensor and effector should work properly to give accurate results for that frequent troubleshooting is required. The key point is i2c address should be correct and the wires are connected properly for initial testing. Rest, this project contributes in making the parking scenarios easy for humans.
+
+## Resources
+For detailed information and demo, I refered to [Youtube video](https://www.youtube.com/watch?v=i-7Hv90Rz58)
+
+
