@@ -22,11 +22,8 @@
  •PCF8574 LCD module (effector)
  
  -The Serial LCD  backpack built on PCF8574 IC uses the I2C bus to convert the parallel interface to a serial one.
- 
  -The LCD needs only 2 wires SDA & SCL , apart from the power connections and ground.
- 
  -There is a blue model which adjusts the contrast of the LCD.
- 
  -The I2C device has a HEX address by which a microcontroller can communicate with it.
  
  •HC-SR04 distance sensor  (sensor)
@@ -54,13 +51,3 @@ The main goal of my project is to measure the distance of the car and display it
 
 ## Budget
 ![capture](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/budget.png)
-
-## Time Commitment
-This project can be done in one weekend. It will take about 2 to 4 days to recieve the parts. If you want to skip breadboarding then you can get started with the soldering which would take about 10 minutes but testing can take about 2 hours. After getting address, it should take one more hour to run the python script and get the readings.
-
-## Setting up Raspberry Pi
-First step after getting your raspberry pi is to set it up. Follow the steps below:
-1. Download [Raspbian](https://www.raspberrypi.org/downloads/) to be installed on your raspberry pi.
-2. Use [SDCardFormatter](https://www.sdcard.org/downloads/formatter_4/) to format your SD card and flash downloaded OS on your SD card.
-3. Insert SD card in raspberry pi and connect the side devices like keyboard and mouse.
-4. Switch on the power and finish the further setup.
