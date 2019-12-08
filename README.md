@@ -53,7 +53,7 @@ The main goal of my project is to measure the distance of the car and display it
 
 ## Time Commitment
 -This project can be done in 1-2 weeks. It will take about 4-5 days to recieve the parts. The breadboarding and testing the connection might take 1-2 hour. Soldering headers, resitors just take 15 minutes. After this, importing the necessary libraries for the lcd and running the python code can take 1 more extra hour which includes troubleshooting step.
-- You can also refer to my schedule provided [here] (https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/Schedule.mpp)
+- You can also refer to my schedule provided [here](https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/Schedule.mpp)
 
 ## Setting up Raspberry Pi
 First step after getting your raspberry pi is to set it up.
@@ -115,7 +115,7 @@ After testing, PCB design is made so that the sensor and effector can be directl
 | VCC | 5V |
 | GND | GND |
 | TRIG | PIN16 |
-| ECHO |   |  1K  |
+| ECHO |  1K |  
 
 | PCF8574 LCD | Raspberry Pi |
 | --- | --- |
@@ -131,14 +131,14 @@ Here is my PCB Design and I got the PCB by exporting it to the gerber files.
 ![fritz_pcb](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/redo_pcb.jpg)
 
 ### Soldering
--Follow these [instruction] (https://www.instructables.com/id/How-to-solder/) on how to solder the pcb. 
+-Follow these [instruction](https://www.instructables.com/id/How-to-solder/) on how to solder the pcb. 
 I soldered my pcb with necessary headers and resistors.
 -Make sure the connections on PCB are not short. vias and other point should have enough solder on it for accurate connection.
 ![99a0e5b6-66c7-4494-9c4c-d72fc71df572](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/new_pcb2.jpg)
-![www] (https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/new_pcb1.jpg)
+![99a0e5b6-66c7-4494-9c4c-d72fc71df572](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/new_pcb1.jpg)
 
 -To avoid short, make sure your pcb is soldered properly, I connected the VCC and ground with the multimeter. It shows Overload which means connection is open. Try connecting it with sensor and effector on it, it will show some value which depicts that connections are accurate.
-![com] (https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/test.jpg)
+![99a0e5b6-66c7-4494-9c4c-d72fc71df572](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/test.jpg)
 
 ### Power Up
 After all the components are connected, your setup should look like this and should show the readings of the distance on the LCD when any object moves infront of the sensor.
@@ -159,7 +159,7 @@ I got this output on the terminal window of the Raspberry Pi after running the p
 
 ### Enclosure
 I made an acrylic case to enclode my raspberry pi, pcb, sensor and lcd 
-You can use Corel Draw to make a case. Click here to get the files for this case. [Design] (https://github.com/SainaKapoor/ParkingEaze/blob/master/Mechanical/Enclosure.cdr)
+You can use Corel Draw to make a case. Click here to get the files for this case. [Design](https://github.com/SainaKapoor/ParkingEaze/blob/master/Mechanical/Enclosure.cdr)
 
 If you are successful in making your case, it should look like this.
 ![design](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/case1.jpg)
@@ -171,5 +171,6 @@ It is important that the sensor and effector should work properly to give accura
 
 ## Resources
 For detailed information and demo, I refered to [Youtube video](https://www.youtube.com/watch?v=i-7Hv90Rz58)
+
 
 
