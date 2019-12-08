@@ -52,7 +52,7 @@ The main goal of my project is to measure the distance of the car and display it
 ![capture](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/budget.png)
 
 ## Time Commitment
--This project can be done in 1-2 weeks. It will take about 4-5 days to recieve the parts. The breadboarding and testing the connection might take 1-2 hour. Soldering headers, resitors just take 15 minutes. After this, importing the necessary libraries for the lcd and running the python code can take 1 more extra hour which includes troubleshooting step.
+- This project can be done in 1-2 weeks. It will take about 4-5 days to recieve the parts. The breadboarding and testing the connection might take 1-2 hour. Soldering headers, resitors just take 15 minutes. After this, importing the necessary libraries for the lcd and running the python code can take 1 more extra hour which includes troubleshooting step.
 - You can also refer to my schedule provided [here](https://github.com/SainaKapoor/ParkingEaze/blob/master/documentation/Schedule.mpp)
 
 ## Setting up Raspberry Pi
