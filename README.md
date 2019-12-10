@@ -15,7 +15,7 @@ The main goal of my project is to measure the distance of the car and display it
 7. [Setting up Raspberry Pi](#setting-Up-Raspberry-Pi)
 8. [Hardware Testing](#hardware-Testing)
 9. [Mechanical Assembly](#mechanical-Assembly)
-10. [PCB Soldering](#pcb-Soldering)
+10. [PCB Soldering](#pcb)
 11. [Unit Testing](#unit-Testing)
 12. [Production Testing](#production-Testing)
 13. [References](#references)
@@ -49,7 +49,7 @@ The main goal of my project is to measure the distance of the car and display it
 - Breadboard and jumper wires to test the connection.
 - Socket Header to attach sensor and effector to the pcb and pcb to the raspberry pi.
 - Acrylic case to enclose the whole circuit. [Thingiverse website](https://www.thingiverse.com/search?q=raspberry+pi+3b%2B+laser&dwh=735defe387e7a28)
-- Printed circuit board [PCB](#pcb-Soldering)
+- Printed circuit board [PCB](#pcb)
 
 ## Budget
 ![capture](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/budget.png)
