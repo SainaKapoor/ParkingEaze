@@ -131,6 +131,7 @@ After testing, PCB design is made so that the sensor and effector can be directl
 ## PCB
 Here is my PCB Design and I got the PCB by exporting it to the gerber files and printed in the humber's prototype lab.
 You can get the fritzing file of my pcb my clicking on this link. [PCB file](https://github.com/SainaKapoor/ParkingEaze/blob/master/Electronics/PCBfile.fzz)
+![fritz_pcb](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/redo_pcb.jpg)
 
 ### Soldering
 - Follow these [instruction](https://www.instructables.com/id/How-to-solder/) on how to solder the pcb. 
