@@ -15,7 +15,7 @@ The main goal of my project is to measure the distance of the car and display it
 7. [Setting up Raspberry Pi](#setting-Up-Raspberry-Pi)
 8. [Hardware Testing](#hardware-Testing)
 9. [Mechanical Assembly](#mechanical-Assembly)
-10. [PCB Soldering](#pcb)
+10. [PCB](#pcb)
 11. [Unit Testing](#unit-Testing)
 12. [Production Testing](#production-Testing)
 13. [References](#references)
