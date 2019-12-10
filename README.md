@@ -6,19 +6,18 @@
 ### Purpose
 The main goal of my project is to measure the distance of the car and display it on the lcd screen. The LCD screen will display the available parkig spots and will give indication and direction to the customers.
 ## Table of Contents
-1. [Purpose](#purpose)
-2. [Introduction](#introduction-to-the-sensor-and-effector)
-3. [System Diagram](#system-Diagram)
-4. [Materials](#materials-required-to-build-this-project)
-5. [Budget](#budget)
-6. [Time Commitment](#time-Commitment)
-7. [Setting up Raspberry Pi](#setting-Up-Raspberry-Pi)
-8. [Hardware Testing](#hardware-Testing)
-9. [Mechanical Assembly](#mechanical-Assembly)
-10. [PCB](#pcb)
-11. [Unit Testing](#unit-Testing)
-12. [Production Testing](#production-Testing)
-13. [References](#references)
+1. [Introduction](#introduction-to-the-sensor-and-effector)
+2. [System Diagram](#system-Diagram)
+3. [Materials](#materials-required-to-build-this-project)
+4. [Budget](#budget)
+5. [Time Commitment](#time-Commitment)
+6. [Setting up Raspberry Pi](#setting-Up-Raspberry-Pi)
+7. [Hardware Testing](#hardware-Testing)
+8. [Mechanical Assembly](#mechanical-Assembly)
+9. [PCB](#pcb)
+10. [Unit Testing](#unit-Testing)
+11. [Production Testing](#production-Testing)
+12. [References](#references)
 
 ## Introduction to the sensor and effector
  -PCF8574 LCD module (effector)
