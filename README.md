@@ -16,6 +16,7 @@ The main goal of my project is to measure the distance of the car and display it
 8. [Mechanical Assembly](#mechanical-Assembly)
 9. [PCB](#pcb)
 10. [Unit Testing](#unit-Testing)
+11. [Enclosure](#enclosure)
 11. [Production Testing](#production-Testing)
 12. [References](#references)
 
@@ -47,7 +48,7 @@ The main goal of my project is to measure the distance of the car and display it
 - 1k resistor and 2.2k resitor used as a voltage divider.
 - Breadboard and jumper wires to test the connection.
 - Socket Header to attach sensor and effector to the pcb and pcb to the raspberry pi.
-- Acrylic case to enclose the whole circuit. [Thingiverse website](https://www.thingiverse.com/search?q=raspberry+pi+3b%2B+laser&dwh=735defe387e7a28)
+- Acrylic case to enclose the whole circuit. [Thingiverse website](https://www.thingiverse.com/search?q=raspberry+pi+3b%2B+laser&dwh=735defe387e7a28) or [my-case](#enclosure)
 - Printed circuit board [PCB](#pcb)
 
 ## Budget
@@ -205,7 +206,7 @@ except KeyboardInterrupt: # If there is a KeyboardInterrupt (when you press ctrl
 I got this output on the terminal window of the Raspberry Pi after running the python script and the distance will be displayed on the lcd screen.
 ![reading](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/result.jpg)
 
-### Enclosure
+## Enclosure
 I made an acrylic case to enclode my raspberry pi, pcb, sensor and lcd 
 You can use Corel Draw to make a case. Click here to get the files for this case. [Design](https://github.com/SainaKapoor/ParkingEaze/blob/master/Mechanical/Enclosure.cdr)
 
