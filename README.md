@@ -3,9 +3,11 @@
  
 <img src="https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/case1.jpg" width="500" height="500">
 
+### Purpose
+The main goal of my project is to measure the distance of the car and display it on the lcd screen. The LCD screen will display the available parkig spots and will give indication and direction to the customers.
 ## Table of Contents
-1. [Introduction](#introduction-to-the-sensor-and-effector)
-2. [Purpose](#purpose)
+1. [Purpose](#purpose)
+2. [Introduction](#introduction-to-the-sensor-and-effector)
 3. [System Diagram](#system-Diagram)
 4. [Materials](#materials-required-to-build-this-project)
 5. [Budget](#budget)
@@ -31,8 +33,7 @@
 - It has some features like measuring Angle: 30 degree, Ranging Distance : 2cm – 400 cm/1″ – 13ft, Power Supply :+5V DC, Working Current: 15mA
 
 
-## Purpose
-The main goal of my project is to measure the distance of the car and display it on the lcd screen. The LCD screen will display the available parkig spots and will give indication and direction to the customers.
+
 
 ## System Diagram 
  This diagram shows the sensor and effector communication with each other using raspberry pi. 
