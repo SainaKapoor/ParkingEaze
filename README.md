@@ -18,7 +18,7 @@ The main goal of my project is to measure the distance of the car and display it
 10. [PCB Soldering](#pcb-Soldering)
 11. [Unit Testing](#unit-Testing)
 12. [Production Testing](#production-Testing)
-13. [Resources](#resources)
+13. [References](#references)
 
 ## Introduction to the sensor and effector
  -PCF8574 LCD module (effector)
@@ -152,7 +152,52 @@ To run the LCD we need some lcd driver libraries which is available at [Librarie
 
 ### Python Script
 I used the this code to run both my sensor and lcd.
-![python](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/python_code.png)
+```
+import lcddriver
+import RPi.GPIO as GPIO
+import time
+GPIO.setmode(GPIO.BCM)
+
+display = lcddriver.lcd()
+
+TRIG = 23 
+ECHO = 24
+
+print ("Distance Measurement In Progress")
+display.lcd_display_string("Distance :", 1)
+GPIO.setup(TRIG,GPIO.OUT)
+GPIO.setup(ECHO,GPIO.IN)
+try:
+    while True:
+
+        GPIO.output(TRIG, False)
+        print ("Waiting For Sensor To Settle")
+        
+        time.sleep(2)
+
+        GPIO.output(TRIG, True)
+        time.sleep(0.00001)
+        GPIO.output(TRIG, False)
+
+        while GPIO.input(ECHO)==0:
+          pulse_start = time.time()
+
+        while GPIO.input(ECHO)==1:
+          pulse_end = time.time()
+
+        pulse_duration = pulse_end - pulse_start
+
+        distance = pulse_duration * 17150
+
+        distance = round(distance, 2)
+
+        result = str(distance)+" cm"
+        display.lcd_display_string(result,2);
+
+except KeyboardInterrupt: # If there is a KeyboardInterrupt (when you press ctrl+c), exit the program and cleanup
+    print("Cleaning up!")
+    GPIO.cleanup()
+```
 
 ### Final Testing
 I got this output on the terminal window of the Raspberry Pi after running the python script and the distance will be displayed on the lcd screen.
@@ -170,7 +215,7 @@ If you are successful in making your case, it should look like this.
 ## Production Testing
 It is important that the sensor and effector should work properly to give accurate results for that frequent troubleshooting is required. The key point is i2c address should be correct and the wires are connected properly for initial testing. Rest, this project contributes in making the parking scenarios easy for humans.
 
-## Resources
+## References
 For detailed information and demo, I refered to [Youtube video](https://www.youtube.com/watch?v=i-7Hv90Rz58)
 
 
