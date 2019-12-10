@@ -41,13 +41,14 @@ The main goal of my project is to measure the distance of the car and display it
 ![systemdiagram](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/diagram.png)
 
 ## Materials required to build this project
+--Folloing materials are listed with the link to the website where you can acquire from:
 - Raspberry Pi [Raspberrypi-Amazon](https://www.amazon.ca/CanaKit-Raspberry-Starter-Premium-Black/dp/B07BD56DW5/ref=sr_1_6?crid=3EARREJYHEXFP&keywords=raspberry+pi+3&qid=1576002058&sprefix=raspber%2Caps%2C249&sr=8-6)
-- HC-SR04 distance sensor
-- PCF8574 LCD module
+- HC-SR04 distance sensor [Sensor-Amazon](https://www.amazon.ca/HC-SR04-Ultrasonic-Distance-Arduino-MEGA2560/dp/B01COSN7O6/ref=sr_1_3?crid=3FEU10TPSGD93&keywords=hc-sr04&qid=1576002253&sprefix=HC-Sr%2Caps%2C260&sr=8-3)
+- PCF8574 LCD module [LCD-Amazon](https://www.amazon.ca/Module-Yellow-Green-PCF8574-Arduino-mega2560/dp/B07Z45V1N7/ref=sr_1_3?keywords=pcf8574+lcd+module&qid=1576002295&sr=8-3)
 - 1k resistor and 2.2k resitor used as a voltage divider.
 - Breadboard and jumper wires to test the connection.
 - Socket Header to attach sensor and effector to the pcb and pcb to the raspberry pi.
-- Acrylic case to enclose the whole circuit.
+- Acrylic case to enclose the whole circuit. [Thingiverse website](https://www.thingiverse.com/search?q=raspberry+pi+3b%2B+laser&dwh=735defe387e7a28)
 
 ## Budget
 ![capture](https://raw.githubusercontent.com/SainaKapoor/ParkingEaze/master/Images/budget.png)
@@ -128,7 +129,7 @@ After testing, PCB design is made so that the sensor and effector can be directl
 
 
 ## PCB
-Here is my PCB Design and I got the PCB by exporting it to the gerber files.
+Here is my PCB Design and I got the PCB by exporting it to the gerber files and printed in the humber's prototype lab.
 You can get the fritzing file of my pcb my clicking on this link. [PCB file](https://github.com/SainaKapoor/ParkingEaze/blob/master/Electronics/PCBfile.fzz)
 
 ### Soldering
